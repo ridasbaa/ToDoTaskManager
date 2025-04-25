@@ -41,13 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Task.cs" />
+    <Compile Include="clsTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ToDoTaskDataAccessLayer\ToDoTaskDataAccessLayer.csproj">
       <Project>{c580ea49-ccd3-4606-b41f-dbf41737280a}</Project>
       <Name>ToDoTaskDataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ToDoTaskModels\ToDoTaskModels.csproj">
+      <Project>{b87c2006-1dc5-4da9-9661-554f0e01f795}</Project>
+      <Name>ToDoTaskModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

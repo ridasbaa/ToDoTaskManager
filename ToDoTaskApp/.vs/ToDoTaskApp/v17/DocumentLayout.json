@@ -1,16 +1,35 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTaskApp\\",
+  "WorkspaceRootPath": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{046BE435-8C58-464F-A370-27E5CF949C76}|..\\ToDoTaskBusinessLayer\\ToDoTaskBusinessLayer.csproj|c:\\users\\reda\\onedrive\\desktop\\todotaskbusinesslayer\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskapp\\ctrladdupdatetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|solutionrelative:ctrladdupdatetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\REDA\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|c:\\users\\reda\\onedrive\\desktop\\todotaskapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrladdupdatetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|solutionrelative:ctrladdupdatetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskapp\\ctrlshowtaskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C20141C-2986-47E0-A7DD-CB03247862EC}|ToDoTaskApp.csproj|solutionrelative:ctrlshowtaskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046BE435-8C58-464F-A370-27E5CF949C76}|..\\ToDoTaskBusinessLayer\\ToDoTaskBusinessLayer.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskbusinesslayer\\clstask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B87C2006-1DC5-4DA9-9661-554F0E01F795}|..\\ToDoTaskModels\\ToDoTaskModels.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskmodels\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C580EA49-CCD3-4606-B41F-DBF41737280A}|..\\ToDoTaskDataAccessLayer\\ToDoTaskDataAccessLayer.csproj|c:\\users\\reda\\onedrive\\desktop\\todotask\\todotaskdataaccesslayer\\taskdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,45 +39,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\REDA\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\Student.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\Student.cs",
-              "ToolTip": "C:\\Users\\REDA\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\Student.cs",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\Student API Project With DB\\01 StudentAPIServer with DB\\StudentAPIBusinessLayer\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAiwCMAAAA1AAAA",
+              "DocumentIndex": 6,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskModels\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "..\\ToDoTaskModels\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskModels\\TaskDTO.cs",
+              "RelativeToolTip": "..\\ToDoTaskModels\\TaskDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T23:40:41.769Z",
+              "WhenOpened": "2025-04-25T13:50:57.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ctrlShowTaskDetails.cs",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrlShowTaskDetails.cs",
+              "RelativeDocumentMoniker": "ctrlShowTaskDetails.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrlShowTaskDetails.cs",
+              "RelativeToolTip": "ctrlShowTaskDetails.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAqwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:02:36.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTaskBusinessLayer\\Task.cs",
-              "RelativeDocumentMoniker": "..\\ToDoTaskBusinessLayer\\Task.cs",
-              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTaskBusinessLayer\\Task.cs",
-              "RelativeToolTip": "..\\ToDoTaskBusinessLayer\\Task.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCMAAAAnAAAA",
+              "Title": "ctrlAddUpdateTask.cs",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrlAddUpdateTask.cs",
+              "RelativeDocumentMoniker": "ctrlAddUpdateTask.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrlAddUpdateTask.cs",
+              "RelativeToolTip": "ctrlAddUpdateTask.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAYwCwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:32:33.329Z",
+              "WhenOpened": "2025-04-25T13:28:42.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTaskApp\\Form1.cs",
+              "DocumentIndex": 5,
+              "Title": "clsTask.cs",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskBusinessLayer\\clsTask.cs",
+              "RelativeDocumentMoniker": "..\\ToDoTaskBusinessLayer\\clsTask.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskBusinessLayer\\clsTask.cs",
+              "RelativeToolTip": "..\\ToDoTaskBusinessLayer\\clsTask.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAqwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:18:36.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTaskApp\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwFEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:01:44.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T22:09:26.509Z",
+              "WhenOpened": "2025-04-25T12:34:10.626Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctrlAddUpdateTask.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrlAddUpdateTask.cs",
+              "RelativeDocumentMoniker": "ctrlAddUpdateTask.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskApp\\ctrlAddUpdateTask.cs [Design]",
+              "RelativeToolTip": "ctrlAddUpdateTask.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:03:02.217Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskData.cs",
+              "DocumentMoniker": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskDataAccessLayer\\TaskData.cs",
+              "RelativeDocumentMoniker": "..\\ToDoTaskDataAccessLayer\\TaskData.cs",
+              "ToolTip": "C:\\Users\\REDA\\OneDrive\\Desktop\\ToDoTask\\ToDoTaskDataAccessLayer\\TaskData.cs",
+              "RelativeToolTip": "..\\ToDoTaskDataAccessLayer\\TaskData.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAcwLkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:34:03.088Z",
+              "EditorCaption": ""
             }
           ]
         },

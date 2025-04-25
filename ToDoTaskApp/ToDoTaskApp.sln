@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoTaskBusinessLayer", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoTaskDataAccessLayer", "..\ToDoTaskDataAccessLayer\ToDoTaskDataAccessLayer.csproj", "{C580EA49-CCD3-4606-B41F-DBF41737280A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoTaskModels", "..\ToDoTaskModels\ToDoTaskModels.csproj", "{B87C2006-1DC5-4DA9-9661-554F0E01F795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C580EA49-CCD3-4606-B41F-DBF41737280A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C580EA49-CCD3-4606-B41F-DBF41737280A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C580EA49-CCD3-4606-B41F-DBF41737280A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87C2006-1DC5-4DA9-9661-554F0E01F795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87C2006-1DC5-4DA9-9661-554F0E01F795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87C2006-1DC5-4DA9-9661-554F0E01F795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87C2006-1DC5-4DA9-9661-554F0E01F795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

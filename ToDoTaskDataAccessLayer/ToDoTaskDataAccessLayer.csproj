@@ -45,5 +45,11 @@
     <Compile Include="TaskData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoTaskModels\ToDoTaskModels.csproj">
+      <Project>{b87c2006-1dc5-4da9-9661-554f0e01f795}</Project>
+      <Name>ToDoTaskModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

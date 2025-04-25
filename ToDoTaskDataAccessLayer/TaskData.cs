@@ -3,39 +3,15 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using ToDoTaskModels;
 
 namespace ToDoTaskDataAccessLayer
 {
-    public class TaskDTO
-    {
-        public enum enPriority { Low = 1, Medium = 2, High = 3, NonSpecified = 4};
-        public enum enStatus { Pending = 1, Completed = 2, Cancelled = 3 };
-
-        public int ID { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public DateTime DeadLine { get; set; }
-        public enPriority Priority { get; set; }
-        public enStatus Status { get; set; }
-        public DateTime CreatedAt { get; set; }
-
-        public TaskDTO(int id, string title, string Desc, DateTime DeadLine, enPriority priority, enStatus status, DateTime CreatedAt)
-        {
-            this.ID = id;
-            this.Title = title;
-            this.Description = Desc;
-            this.DeadLine = DeadLine;
-            this.Priority = priority;
-            this.Status = status;
-            this.CreatedAt = CreatedAt;
-        }
-
-    }
-
-
     public class TaskData
     {
-        static string _ConnectionString = ConfigurationManager.ConnectionStrings["ToDoDb"].ConnectionString;
+        static string _ConnectionString = ConfigurationManager.ConnectionStrings["ToDoDb"]?.ConnectionString
+                                          ?? throw new InvalidOperationException("Connection string 'ToDoDb' is not configured.");
+
 
         public static List<TaskDTO> GetAllTasks()
         {
@@ -160,7 +136,6 @@ namespace ToDoTaskDataAccessLayer
                         cmd.Parameters.AddWithValue("@DeadLine", task.DeadLine);
                         cmd.Parameters.AddWithValue("@Priority", (int)task.Priority);
                         cmd.Parameters.AddWithValue("@Status", (int)task.Status);
-                        cmd.Parameters.AddWithValue("@CreatedAt", task.CreatedAt);
                         cmd.Parameters.AddWithValue("@TaskID", task.ID);
 
                         conn.Open();
@@ -214,6 +189,39 @@ namespace ToDoTaskDataAccessLayer
             }
         }
 
+
+        public static bool UpdateStatus(int taskid, int Status)
+        {
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(_ConnectionString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("SP_UpdateStatus", conn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@TaskID", taskid);
+                        cmd.Parameters.AddWithValue("@Status", Status);
+
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
+                        return true;
+
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                // Log the SQL-specific error
+                Console.WriteLine("SQL Error: " + ex.Message);
+                return false;
+            }
+            catch (Exception ex)
+            {
+                // Log any other general errors
+                Console.WriteLine("Unexpected Error: " + ex.Message);
+                return false;
+            }
+        }
 
     }
 

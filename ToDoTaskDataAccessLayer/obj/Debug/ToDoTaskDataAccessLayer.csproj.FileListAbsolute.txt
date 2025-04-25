@@ -4,3 +4,12 @@ C:\Users\REDA\OneDrive\Desktop\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAcc
 C:\Users\REDA\OneDrive\Desktop\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\REDA\OneDrive\Desktop\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.dll
 C:\Users\REDA\OneDrive\Desktop\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.pdb
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\bin\Debug\ToDoTaskDataAccessLayer.dll
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\bin\Debug\ToDoTaskDataAccessLayer.pdb
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\bin\Debug\ToDoTaskModels.dll
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\bin\Debug\ToDoTaskModels.pdb
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\obj\Debug\ToDoTask.5B9F489C.Up2Date
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.dll
+C:\Users\REDA\OneDrive\Desktop\ToDoTask\ToDoTaskDataAccessLayer\obj\Debug\ToDoTaskDataAccessLayer.pdb
